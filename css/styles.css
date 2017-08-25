@@ -1,0 +1,109 @@
+header {
+  text-align: center;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+p {
+  color: #61122f;
+  position: relative;
+  text-align: center;
+}
+.movie-tile {
+  padding: 20px;
+}
+.movie-details {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+p.pre-price {
+  color: #808080;
+  text-decoration: line-through;
+  float: left;
+}
+
+.stars-container {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+.add-to-btn {
+  background-color: #ffd700;
+  color: #61122f;
+
+}
+
+.btn-logo {
+  height: 20px;
+  width: 20px;
+}
+
+.btn-container {
+  white-space: nowrap;
+  width: 100%;
+}
+.wishlist-btn {
+   background-color: #fff;
+}
+
+.cart-btn {
+  float: right;
+}
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 1px solid #3F0C1F;
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container .jumbotron {
+    height: 432px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+    background-color: #fff;
+  }
+}
+
+
+/********** Super extra small devices (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+
+
