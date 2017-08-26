@@ -13,6 +13,7 @@ body {
   color: #fff;
   background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
+  margin-bottom: 200px;
 }
 p {
   color: #61122f;
@@ -21,6 +22,8 @@ p {
 }
 .movie-tile {
   padding: 20px;
+  border-style: groove;
+  background-color: #fff;
 }
 .movie-details {
   display: block;

@@ -14,11 +14,10 @@
   <header>
   	<h1>DVD Menu</h1>
   </header>
-   <div class="container">
-   	<div id="movies-tiles" class="col-xs-12 jumbotron">
-   		<div class="movie-tile">
+   <div class="container col-xs-12 jumbotron">
+   		<div id="first-movie" class="movie-tile">
    			<img src="images/The_Force_Awakens.jpg" alt="Poster of The_Force_Awakens" class="img-responsive visible-xs jumbotron">
-   			<p>Star Wars: The Force Awakens</p>
+   			<p id="movie-title"></p>
    			<div class="movie-details">
    				<div class="stars-container">
    					<img src="images/star_filled.png" alt="star filled">
@@ -36,8 +35,11 @@
    				<button type="button" class="btn add-to-btn cart-btn"><img class="btn-logo" src="images/cart.png" alt="cart"> Add to Cart</button>
    			</div>
    		</div>
-   	</div>
+   		<div id="targetElm"></div>
    </div>
 
+   <script src="js/script.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
  </body>
 </html>
