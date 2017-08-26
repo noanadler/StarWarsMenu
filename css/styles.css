@@ -1,17 +1,16 @@
 header {
   text-align: center;
   font-family: 'Lora', serif;
-  text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+  color: #61122f;
+
 }
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
   margin-bottom: 200px;
 }
@@ -19,6 +18,9 @@ p {
   color: #61122f;
   position: relative;
   text-align: center;
+}
+#movie-title {
+  font-weight: bold;
 }
 .movie-tile {
   padding: 20px;
@@ -91,7 +93,7 @@ p.pre-price {
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
-    background-color: #fff;
+    
   }
 }
 
