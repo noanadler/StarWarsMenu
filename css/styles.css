@@ -26,24 +26,23 @@ p {
   padding: 20px;
   border-style: groove;
   background-color: #fff;
-}
-.movie-details {
-  display: block;
-  width: 50%;
-  margin: 0 auto;
+  width: 90%;
   position: relative;
+  margin: 0 auto;
 }
 p.pre-price {
   color: #808080;
   text-decoration: line-through;
   float: left;
+  width: 50%;
 }
 
 .stars-container {
   display: block;
-  width: 50%;
+  width: 100px;
   margin: 0 auto;
   white-space: nowrap;
+  position: relative;
 }
 
 .add-to-btn {
